@@ -35,7 +35,7 @@ package starling.events
      *  @see Event
      *  @see starling.display.DisplayObject DisplayObject
      */
-    public class EventDispatcher
+    public class EventDispatcher implements IEventDispatcher
     {
         private var mEventListeners:Dictionary;
         
